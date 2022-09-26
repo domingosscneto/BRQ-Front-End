@@ -1,1 +1,1 @@
-# Primeiro sprint da BRQ (HTML e CSS).
+# Segunda sprint da BRQ (HTML e CSS).
