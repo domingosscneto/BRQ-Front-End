@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    color: #FC5812;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    margin: 15px 0px;
+}
+
+/*HEADER*/
+hr{
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
+
+.menu_chield{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+}
+
+.menu_chield li{
+    list-style-type: none;
+}
+
+.menu_chield li a{
+    text-decoration: none;
+    margin: 30px;
+    color: black;
+}
+
+/*MAIN*/
+main{
+    width: 1140px;
+    margin: auto;
+}
+
+.bloco1{
+    margin-bottom: 50px;
+}
+
+.bloco2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloco2 div img{
+    width: 300px;
+    height: 60%;
+}
+
+.card1, .card2, .card3{
+    border: 1px solid #000000;
+    width: 300px;
+    height: 593px;
+    text-align: center;
+}
+
+.card1 p, .card2 p, .card3 p{
+    margin: 15px 25px 25px 25px;
+    text-align: start;
+}
+
+.bloco2 a{
+    background-color: #FC5812;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.imagem_moda{
+    margin-top: 35px;
+}
+
+/*FOOTER*/
+footer{
+    margin-top: 35px;
+    background-color: #FC5812;
+    text-align: center;
+}
+
+footer p{
+    padding: 15px;
+    color: white;
+}

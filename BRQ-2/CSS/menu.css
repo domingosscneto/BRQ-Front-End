@@ -1,0 +1,47 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dropdown ul li a{
+    text-decoration: none;/*Tira o underline do texto*/
+    display: block;
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding: 20px;
+}
+
+.dropdown ul li a:hover{ /*:hover -> evento para quando passar o mouse por cima*/
+    background-color: blue;
+}
+
+.dropdown ul li{
+    list-style-type: none;/*Tira a bolinha de lista antes da palavra*/
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_chield{
+    display: none;/*Faz os SubMenus ficarem invisíveis*/
+    background-color: black;
+    min-width: 200px;
+}
+
+.dropdown:hover .dropdown_chield{/*quando passar o mouse por cima do menu, aparece os SubMenu*/
+    display: block;
+}
+
+.dropdown_chield a{
+    color: blue;
+    padding: 20px;
+    text-decoration: none;/*Tira o underline do texto*/
+    display: block;/*deixa os submenus bloqueados na vertical(um em cima do outro)*/
+}
+
+.dropdown_chield a:hover{
+    color: white;
+    background-color: blue;
+}

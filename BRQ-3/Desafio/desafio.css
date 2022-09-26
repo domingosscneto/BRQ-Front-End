@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #f2890d;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    position: relative;
+    top: 75px;
+    display: flex;
+    width: 258px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #1180E7;
+    border-radius: 20px;
+}
+
+h1{
+    font-family: 'Squada One', cursive;
+    font-weight: normal;
+    font-size: 70px;
+}
+
+section{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 1080px;
+    height: 645px;
+    display: flex;
+}
+
+.boxEsquerda{
+    width: 540px;
+    height: 645px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+}
+
+.tituloEsquerda{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.conteudo{
+    width: 350px;
+    margin: 13px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.conteudo input{
+    margin-top: 17px;
+    margin-bottom: 61px;
+    height: 42px;
+    border: 3px solid #B0A3A3;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.conteudo select{
+    margin-top: 17px;
+    margin-bottom: 61px;
+    height: 42px;
+    border: 3px solid #B0A3A3;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.botao{
+    text-align: center;
+}
+
+#comecar{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #7c7f82;
+    padding: 12px 37px;
+    cursor: pointer; 
+}
+
+.boxCentral{
+    border-left: 5px solid #B0A3A3;
+    height: 430px;
+    margin-top: 112px;
+}
+
+.boxDireita{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    width: 540px;
+    height: 645px;
+}
+
+.tituloDireita{
+    margin:  112px auto 60px auto;
+    text-align: center;
+}
+
+.conteudo2{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    width: 350px;
+    height:max-content;
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo2 input{
+    margin-top: 17px;
+    margin-bottom: 54px;
+    height: 42px;
+    border: 3px solid #B0A3A3;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 54px;
+}
+
+#jogar{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #7c7f82;
+    padding: 12px 37px;
+    cursor: pointer;
+}
+
+#saida{
+    text-align: center;
+}
+#tentativa{
+    text-align: center;
+}
+
+/*SMARTPHONE*/
+
+@media(max-width: 428px){
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    main{
+        margin-bottom: 90px;
+    }
+
+    section{
+        width: 320px;
+        flex-direction: column;
+        margin: auto;
+        height: auto;
+    }
+
+    .conteudo, .conteudo2{
+        width: 300px;
+    }
+
+    .boxCentral{
+        display: none;
+    }
+    
+    .boxEsquerda{
+        width: 320px;
+    }
+    
+    .boxDireita{
+        width: 320px;
+    }
+
+    .tituloDireita{
+        margin-top: 50px;
+    }
+    #numero{
+        margin-bottom: 30px;
+    }
+}

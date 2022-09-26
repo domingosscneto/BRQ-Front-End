@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: rgb(36, 36, 255);
+    font-size: 50px;
+}
+
+header{
+    border: 3px solid black;
+    width: 100%;
+    padding: 25px 0px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu ul li{
+    list-style-type: none;
+}
+
+.menu_chield a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 30px;
+}
+
+.menu ul:nth-child(2){
+    padding: 20px 0px;
+}

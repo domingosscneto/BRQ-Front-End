@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: blueviolet;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_chield{
+    display: flex;
+}
+
+.menu_chield a{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 0px 30px;
+}
+
+.menu_chield li{
+    list-style: none;
+}

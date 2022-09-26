@@ -1,0 +1,72 @@
+main{
+    width: 1200px;
+    margin: auto;
+    text-align: end;
+    font-size: 1.6rem;
+}
+
+.box1{
+    text-align: start;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.box1 p:nth-child(2){
+    font-family: 'Rokkitt', serif;
+    color: #eb2020;
+    font-weight: 900;
+}
+.box1 p:nth-child(3){
+    font-family: 'Courier Prime', serif;
+    color: #730ac6;
+}
+.box1 p:nth-child(4){
+    font-family: 'Rosarivo', serif;
+    color: #0e8d58;
+}
+
+
+.box2{
+    text-align: end;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.box2 p:nth-child(2){
+    font-family: 'Saira', sans-serif;
+    color: #659a77;
+}
+.box2 p:nth-child(3){
+    font-family: 'Roboto', sans-serif;
+    color: #fc5812;
+}
+.box2 p:nth-child(4){
+    font-family: 'Padauk', sans-serif;
+    color: #154ee0;
+}
+
+
+.box3{
+    text-align: start;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.box3 p:nth-child(2){
+    font-family: 'Rouge Script', fantasy;
+    color: #000;
+}
+.box3 p:nth-child(3){
+    font-family: 'Plaster', fantasy;
+    color: #640d87;
+}
+.box3 p:nth-child(4){
+    font-family: 'Kranky', fantasy;
+    color: #ef6c0c;
+}
+
+h2{
+    font-family: 'Roboto', serif;
+    color: black;
+    font-size: 36px;
+}

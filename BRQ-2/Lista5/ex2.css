@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+header{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0F3F3;
+    padding: 5px;
+    font-weight: bold;
+}
+
+main{
+    width: 1140px;
+    margin: auto;
+}
+
+.card{
+    display: flex;
+    margin: 30px;
+}
+
+.card1, .card2{
+    border-radius: 5px;/*Deixa a borda do card arredondada*/
+    border: 1px solid rgba(51, 51, 51, 0.5);/*Cria a borda do card*/
+    width: 538px;
+    height: 755px;
+    padding: 30px;
+    margin: 0px 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.cadastrar{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.entrar{
+    margin: auto;
+    width: 80px;
+    height: 39px;
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #8458FF;
+    width: 80px;
+    height: 39px;
+    cursor: pointer;
+}
+
+input{
+    width: 400px;
+    height: 25px;
+    padding: 0px 10px;
+}
+
+select{
+    width: 420px;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.rodape{
+    display: flex;
+    padding-left: 30%;
+    background-color: #F6511D;
+    height: 250px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rodape div{
+    margin: 5%;
+}
+
+hr{
+    margin-top: 3%;
+    size: 10;
+    height: 70%;
+    
+}

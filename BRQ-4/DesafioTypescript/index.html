@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+    <link rel="stylesheet" href="desafio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <strong>SyncTur</strong>
+    </header>
+    <main>
+        <h3>Cadastrar Pacotes</h3>
+        <section class="secao1">
+            <div class="card1">
+                <div class="card1_cima">
+                    <h3>Pacote</h3>
+                    <input type="text" class="nome" placeholder="Digite nome completo">
+                </div>
+                <div class="card1_baixo">
+                    <div>
+                        <h3>Status do Pacote</h3>
+                        <input type="radio" class="status" id="ativo" name="atividade" value="ativo">
+                        <label for="ativo">Ativo</label><br>
+                        <input type="radio" class="status" id="inativo" checked name="atividade" value="inativo">
+                        <label for="inativo">Inativo</label>
+                    </div>
+                    <div>
+                        <h3>Data da Viagem</h3>
+                        <input type="date" class="data" placeholder="Data">
+                    </div>
+                </div>
+            </div>
+            <div class="card2">
+                <h3>Descrição</h3>
+                <textarea class="areaTexto" placeholder="Descrição do pacote"></textarea>
+            </div>
+        </section>
+        <button class="cadastrar">Cadastrar</button>
+        <section class="secao2">
+            <!-- <div class="pacotes">
+                <h3 class="nomeAPI">Pacote X</h3>
+                <p class="txtAPI">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="txtData">Data da viagem: 17/08/22</p>
+                <button type="submit" class="editar">Editar</button>
+                <button type="submit" class="excluir">Excluir</button>
+            </div> -->
+        </section>
+    </main>
+    <footer>
+        <div class="rodape">
+            <div class="logo">
+                <h1>SyncTur</h1>
+            </div>
+            <hr>
+            <div class="info">
+                <p>Company Inc.,8902 Marmora Road, Glasgow, D04 89GR</p><br>
+                <p>Call us now toll free:(800)2345-689</p><br>
+                <p>Costumer support:support@demolink.org</p><br>
+                <p>Skype: sample-username</p><br>
+            </div>
+        </div>
+    </footer>
+    <script src="desafio.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+main{
+    width: 1200px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: end;
+}
+
+.box1{ 
+    font-size: 24px;/*1rem == 16px*/ 
+}
+
+h1{
+    font-family: 'Seaweed Script', cursive;
+    color: #A93983;
+    font-size: 4.5rem;
+    font-weight: 400;
+    text-align: start;
+}
+
+.caixa{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+
+footer{
+    text-align: center;
+}

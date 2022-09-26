@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+</head>
+<body>
+    <form enctype="multipart/form-data">
+        <fieldset>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome">
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome">
+        </fieldset>
+        
+        <fieldset>
+            <br>
+            <label for="endereço">Endereço:</label>
+            <br><br>
+            <input type="text" id="endereço">
+        </fieldset>
+        
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <br>
+            <label for="escolaridade">Escolaridade:</label>
+            <select name="escolaridade" id="escolaridade">
+                <option value="ensino_basico">Ensino Básico</option>
+                <option value="ensino_medio">Ensino Médio</option>
+                <option value="ensino_superior">Ensino Superior</option>
+            </select>
+            <br><br>
+
+            Trabalha atualmente?
+            <br><br>
+            <input type="radio" id="sim" name="trabalha" value="Sim">
+            <label for="sim">Sim</label>
+            <input type="radio" id="nao" name="trabalha" value="Não">
+            <label for="nao">Não</label>
+            <br><br>
+
+            Cursos:
+            <br><br>
+            <input type="checkbox" id="informatica" name="curso" value="Informática Básica">
+            <label for="informatica">Informática Básica</label>
+
+            <input type="checkbox" id="secretariado" name="curso" value="Secretariado">
+            <label for="secretariado">Secretariado</label>
+
+            <input type="checkbox" id="legica_programação" name="curso" value="Lógica de Programação">
+            <label for="legica_programação">Lógica de Programação</label>
+
+            <input type="checkbox" id="html_e_css" name="curso" value="HTML e CSS">
+            <label for="html_e_css">HTML e CSS</label>
+
+            <input type="checkbox" id="javascript" name="curso" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pesquisa</legend>
+            <br><br>
+
+            Já fez viagem para o exterior?
+            <br><br>
+            <input type="radio" id="sim_exterior" name="viagem" value="Sim">
+            <label for="sim_exterior">Sim</label>
+            <input type="radio" id="não_exterior" name="viagem" value="Não">
+            <label for="não_exterior">Não</label>
+            <br><br>
+
+            Quais continentes desperta mais interesse?
+            <br><br>
+            <input type="checkbox" id="america_do_sul" name="continentes" value="América do Sul">
+            <label for="america_do_sul">América do Sul</label>
+            
+            <input type="checkbox" id="america_do_norte" name="continentes" value="América do Norte">
+            <label for="america_do_norte">América do Norte</label>
+            
+            <input type="checkbox" id="america_central" name="continentes" value="América Central">
+            <label for="america_central">América Central</label>
+            
+            <input type="checkbox" id="africa" name="continentes" value="África">
+            <label for="africa">África</label>
+            
+            <input type="checkbox" id="asia" name="continentes" value="Ásia">
+            <label for="asia">Ásia</label>
+            
+            <input type="checkbox" id="europa" name="continentes" value="Europa">
+            <label for="europa">Europa</label>
+            <br><br>
+
+            <label for="paises"> Cite ao menos 5 países que pretende conhecer:</label>
+            <br><br>
+            <input type="text" id="paises">
+            <br><br>
+
+            Mensagem:
+            <br><br>
+            <textarea cols="20" rows="5"></textarea>
+        </fieldset>
+        <br>
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>

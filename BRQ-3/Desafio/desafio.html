@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O JOGO</title>
+    <link rel="stylesheet" href="desafio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&family=Squada+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="titulo">
+            <h1>OJOGO</h1>
+        </div>
+        <section>
+            <div class="boxEsquerda">
+                <div class="tituloEsquerda">
+                    <img src="perfil.png" alt="Imagem perfil">
+                </div>
+                <div class="conteudo">
+                    <label for="nick">Nick:</label>
+                    <input type="text" id="nick">
+
+                    <label for="intervalo">Intervalo:</label>
+                    <select name="intervalo" id="intervalo">
+                        <option value="opcao1">Opção 1: 1 a 10</option>
+                        <option value="opcao2">Opção 2: 1 a 100</option>
+                        <option value="opcao3">Opção 3: 1 a 200</option>
+                    </select>
+
+                </div>
+                <div class="botao">
+                    <button disabled id="comecar">COMEÇAR</button>
+                </div>
+            </div>
+            <div class="boxCentral"></div>
+            <div class="boxDireita">
+                <div class="tituloDireita">
+                    <p>Olá <strong><span id="texto">Fulano</span></strong>, vamos jogar!</p>
+                    <p>De acordo com a opção de intervalo que você escolheu, descubra o número.</p>
+                </div>
+                <div class="conteudo2">
+                    <label for="numero">Digite um número:</label>
+                    <input type="number" id="numero">
+                </div>
+                <div class="resultado">
+                    <button id="jogar">JOGAR</button>
+                    <p id="saida"></p>
+                    <p id="tentativa"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="desafio.js"></script>
+</body>
+</html>

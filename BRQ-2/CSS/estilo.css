@@ -1,0 +1,53 @@
+/* Seletores por Tags Nativas */
+body{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/*Tipo de fonte*/
+    font-size: 1.0rem;/*rem respeita o tamanho original da fonte, ou seja, 1.0 mantem o mesmo tamanho. Já 1.5 vai ser o dobro do tamanho(150% do tamanho original)*/
+    /* 16px -> Tamanho padrão da fonte do navegador */
+}
+
+span{
+    color: black;
+}
+
+h4{
+    color: blue;
+}
+
+img{
+    width: 100px;
+}
+
+/* Seletores por IDs */
+
+#produtos_em_ofertas{
+    background-color: red;
+}
+
+/* Seletores por classes */
+
+.card{
+    background-color: white;
+    width: 300px;/*Largura*/
+    height: 350px;/*Altura*/
+    font-weight: 100;/*grossura do texto*/
+    text-decoration: line-through;/*Linha cortando o texto*/
+    text-transform: uppercase;/*Tudo em caixa alta*/
+    text-align: center;/*centraliza o texto*/
+}
+.card2{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    font-weight: 800;
+    text-transform: lowercase;/*Tudo em minusculo*/
+    text-align: end;/*alinha o texto no final*/
+}
+.card3{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    text-decoration: none;/*tira o sublinhado ou qualquer decoração do texto*/
+    text-transform: capitalize;/*Todas as primeiras letras de cada palavra em maiusculo*/
+    text-align: justify;/*justifica o texto*/
+}
