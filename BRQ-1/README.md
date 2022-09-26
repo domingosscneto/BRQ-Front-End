@@ -1,1 +1,1 @@
-# Primeiro sprint da BRQ (Javascript).
+# Primeira sprint da BRQ (Javascript).
